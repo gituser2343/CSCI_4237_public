@@ -120,10 +120,6 @@ fun Dice() {
 
         ScoreboardCard(totalgames.toString(), wins.toString(), losses.toString())
 
-        /*ScoreboardCard("Current roll", "Previous Rolls", "Point")
-        ScoreboardCard(rolls.size.toString(), printlist(rolls), point.toString())
-        Spacer(modifier = Modifier.height(60.dp))
-        */
 
         if (rolls.size>0) {
             Text(
